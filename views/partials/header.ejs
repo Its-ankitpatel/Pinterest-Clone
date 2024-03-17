@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pinterest Clone</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="https://www.google.com/s2/favicons?domain=pinterest.com">
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+<body>
+  <% if(nav===true){ %>
+    <nav class="w-full px-10 py-3 flex justify-between bg-zinc-800 text-white item-center sticky top-0">
+     <h3 class="text-xl">Pinterest</h3>
+     <div class="flex gap-10 items-center">
+       <a href="/profile" class="hover:underline">Profile</a>
+       <a href="/feed" class="hover:underline">Feed</a>
+       <a href="/logout" class="px-3 py-2 bg-red-700 rounded-lg">Logout</a>
+     </div>
+    </nav>
+    
+  <%} %>
